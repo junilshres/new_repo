@@ -9,4 +9,5 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Login' }).click();
   await page.getByRole('banner').getByRole('img', { name: 'profile picture' }).click();
   await page.getByRole('menuitem', { name: 'Logout' }).click();
+  
 });
